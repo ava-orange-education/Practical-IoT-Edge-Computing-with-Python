@@ -1,0 +1,41 @@
+<html>
+<body>
+    <h3>Sensor Values</h3>
+
+<div>
+  <form action="/result" method="POST">
+    <label for="motion">Number of People</label>
+    <input type="text" id="motion" name="motion">
+    <br>
+    <label for="weather">Weather</label>
+       <select id="weather" name="weather">
+       <option value="0">Sunny</option>
+       <option value="1">Cloudy</option>
+       <option value="2">Night</option>
+       </select>
+    <br>
+    <label for="light1">Status of Light 1</label>
+      <select id="light1" name="light1">
+      <option value="0">OFF</option>
+      <option value="1">ON</option>
+      </select>
+    <br>
+    <label for="light2"> Status of Light 2</label>
+    <select id="light2" name="light2">
+    <option value="0">OFF</option>
+    <option value="1">ON</option>
+    </select>
+    <br>
+    <label for="act">Action</label>
+    <select id="act" name="act">
+      <option value="0">Reading</option>
+      <option value="1">Eating</option>
+      <option value="2">Watching TV</option>
+      <option value="3">Sleeping</option>
+      </select>
+    <br>
+     <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
